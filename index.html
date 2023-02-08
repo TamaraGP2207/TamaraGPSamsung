@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laboratorio Módulo 2 Tamara García</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="index.js"></script>
+	
+</head>
+
+<body>
+	<form action=" " class="formulario" id="iformulario" method="post">
+		<h1> Create Account </h1>
+<!-- Nombre -->
+		    <label for="inom">Nombre</label> 
+			    <div class="grupo" id="grupo_input_nom">
+		            <input type="text" id="inom" name="fnom" required>
+					<img src="images/error-icon.svg" id="error_nom" class="invisible" alt="">
+					<img src="images/success-icon.svg" id="ok_nom" class="invisible" alt="">
+		        </div>
+				<article id="imensaje_nom"></article>
+
+<!-- Email-->
+		    <label for="iema">Email</label> 
+			    <div class="grupo" id="grupo_input_ema">
+		            <input type="email" id="iema" name="fema" required>
+		            <img src="images/error-icon.svg" id="error_ema" class="invisible" alt="">
+					<img src="images/success-icon.svg" id="ok_ema" class="invisible" alt="">
+		        </div>
+				<article id="imensaje_ema"></article>
+
+<!-- Clave -->
+			<label for="icla">Clave</label>
+		        <div class="grupo" id="grupo_input_cla">
+		            <input type="password" id="icla" name="fcla" maxlength="8" required >
+                    <img src="images/error-icon.svg" id="error_cla" class="invisible" alt="">
+					<img src="images/success-icon.svg" id="ok_cla" class="invisible" alt="">
+		        </div>
+				<article id="imensaje_cla"></article>
+
+<!-- Confirmación de clave -->
+			<label for="icon">Confirme su clave</label>
+		        <div class="grupo" id="grupo_input_con">
+		            <input type="password" id="icon" name="fcon" maxlength="8" required >
+                    <img src="images/error-icon.svg" id="error_con" class="invisible" alt="">
+					<img src="images/success-icon.svg" id="ok_con" class="invisible" alt="">
+		        </div>
+				<article id="imensaje_con"></article>
+				
+
+			<button type="submit" id="submit" onclick="return enviar();"> ENVIAR </button>
+
+			<article class="env_correcto" id="imensaje_env"></article>
+	</form>
+
+	
+    
+</body>
+</html>
