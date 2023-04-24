@@ -1,0 +1,139 @@
+{
+    "Mercadona":[
+        {
+            "direccion": "Collado Villalba",
+            "fechaCompra": "22/05/23",
+            "costeTotal": 23.07,
+            "metodoPago": "efectivo",
+            "productos" : [
+                {
+                    "nombre": "Leche",
+                    "descripcion": "brick 1L",
+                    "marca": "Pascual",
+                    "cantidad": 6,
+                    "precioUnidad": 1.29
+                },
+                {
+                    "nombre": "Pechuga de pollo",
+                    "descripcion": "Bandeja de pechuga de pollo de 400gr",
+                    "marca": "El pollo feliz",
+                    "cantidad": 1,
+                    "precioUnidad": 6.35
+                },
+                {
+                    "nombre": "Macarrones",
+                    "descripcion": "Pack ahorro 825gr",
+                    "marca": "Gallo",
+                    "cantidad": 2,
+                    "precioUnidad": 2.10
+                },
+                {
+                    "nombre": "Tomate frito",
+                    "descripcion": "Pack de 3 uds 200gr",
+                    "marca": "Hacendado",
+                    "cantidad": 1,
+                    "precioUnidad": 1.99
+                },
+                {
+                    "nombre": "Chorizo Extra",
+                    "descripcion": "ristra de chorizo picante",
+                    "marca": "Palacios",
+                    "cantidad": 1,
+                    "precioUnidad": 2.79
+                }
+            ]
+        }
+    ],
+
+    "Carrefour":[
+        {
+            "direccion": "Pinar de las Rozas",
+            "fechaCompra": "23/05/2023",
+            "costeTotal": 33.96,
+            "metodoPago": "efectivo y cupones descuento",
+            "productos" : [
+                {
+                    "nombre": "Atún en aceite de oliva",
+                    "descripcion": "Pack 8 latas",
+                    "marca": "Carrefour",
+                    "cantidad": 2,
+                    "precioUnidad": 6.30
+                },
+                {
+                    "nombre": "Plátanos",
+                    "descripcion": "Plátanos de Canarias 1kg",
+                    "marca": "Canarias",
+                    "cantidad": 1,
+                    "precioUnidad": 3.75
+                },
+                {
+                    "nombre": "Pan de molde",
+                    "descripcion": "Pan de molde sin corteza",
+                    "marca": "Bimbo",
+                    "cantidad": 1,
+                    "precioUnidad": 1.61
+                },
+                {
+                    "nombre": "Sanytol",
+                    "descripcion": "Limpiador multiusos desinfectante",
+                    "marca": "Sanytol",
+                    "cantidad": 1,
+                    "precioUnidad": 2.40
+                },
+                {
+                    "nombre": "Detergente ropa",
+                    "descripcion": "Pack 32 capsulas",
+                    "marca": "Ariel",
+                    "cantidad": 1,
+                    "precioUnidad": 13.60
+                }
+            ]
+        }
+    ],
+
+    "Alcampo":[
+        {
+            "direccion": "Torrelodones",
+            "fechaCompra": "03/06/2023",
+            "costeTotal": 17.91,
+            "metodoPago": "tarjeta",
+            "productos" : [
+                {
+                    "nombre": "Yogures",
+                    "descripcion": "Yogures con trozos de fruta pack de 8",
+                    "marca": "Auchan",
+                    "cantidad": 1,
+                    "precioUnidad": 2.20
+                },
+                {
+                    "nombre": "Pescado",
+                    "descripcion": "Corazones de merluza congelados",
+                    "marca": "Pescanova",
+                    "cantidad": 1,
+                    "precioUnidad": 5.49
+                },
+                {
+                    "nombre": "Café",
+                    "descripcion": "Cápsulas nespresso",
+                    "marca": "Starbucks",
+                    "cantidad": 1,
+                    "precioUnidad": 4.29
+                },
+                {
+                    "nombre": "Ambientador baño",
+                    "descripcion": "Pack 3 ambientadores olor a pino",
+                    "marca": "Auchan",
+                    "cantidad": 2,
+                    "precioUnidad": 1.99
+                },
+                {
+                    "nombre": "Mayonesa",
+                    "descripcion": "Bote de mayonesa ligera",
+                    "marca": "Auchan",
+                    "cantidad": 1,
+                    "precioUnidad": 1.95
+                }
+            ]
+        }
+    ]
+}

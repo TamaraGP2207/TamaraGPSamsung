@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<supermercados>
+
+<Mercadona>
+
+    <direccion>Collado Villalba</direccion>
+    <fechaCompra>22/05/23</fechaCompra>
+    <costeTotal>23.07</costeTotal>
+    <metodoPago>efectivo</metodoPago>
+
+    <productos>
+      <producto id="001">
+        <nombre>Leche</nombre>
+        <descripcion>brick 1L</descripcion>
+        <marca>Pascual</marca>
+        <cantidad>6</cantidad>
+        <precioUnidad>1.29</precioUnidad>
+      </producto>
+      <producto id="002">
+        <nombre>Pechuga de pollo</nombre>
+        <descripcion>Bandeja de pechuga de pollo de 400gr</descripcion>
+        <marca>El pollo feliz</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>6.35</precioUnidad>
+      </producto>
+      <producto  id="003">
+        <nombre>Macarrones</nombre>
+        <descripcion>Pack ahorro 825gr</descripcion>
+        <marca>Gallo</marca>
+        <cantidad>2</cantidad>
+        <precioUnidad>2.10</precioUnidad>
+      </producto>
+      <producto id="004">
+        <nombre>Tomate frito</nombre>
+        <descripcion>Pack de 3 uds 200gr</descripcion>
+        <marca>Hacendado</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>1.99</precioUnidad>
+      </producto>
+      <producto id="005">
+        <nombre>Chorizo Extra</nombre>
+        <descripcion>ristra de chorizo picante</descripcion>
+        <marca>Palacios</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>2.79</precioUnidad>
+      </producto>
+    </productos>
+
+  </Mercadona>
+
+
+  <Carrefour>
+
+    <direccion>Pinar de las Rozas</direccion>
+    <fechaCompra>23/05/2023</fechaCompra>
+    <costeTotal>33.96</costeTotal>
+    <metodoPago>efectivo y cupones descuento</metodoPago>
+
+    <productos>
+      <producto id="001">
+        <nombre >Atún en aceite de oliva</nombre>
+        <descripcion>Pack 8 latas</descripcion>
+        <marca>Carrefour</marca>
+        <cantidad>2</cantidad>
+        <precioUnidad>6.30</precioUnidad>
+      </producto>
+      <producto id="002">
+        <nombre>Plátanos</nombre>
+        <descripcion>Plátanos de Canarias 1kg</descripcion>
+        <marca>Canarias</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>3.75</precioUnidad>
+      </producto>
+      <producto  id="003">
+        <nombre>Pan de molde</nombre>
+        <descripcion>Pan de molde sin corteza</descripcion>
+        <marca>Bimbo</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>1.61</precioUnidad>
+      </producto>
+      <producto id="004">
+        <nombre>Sanytol</nombre>
+        <descripcion>Limpiador multiusos desinfectante</descripcion>
+        <marca>Sanytol</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>2.40</precioUnidad>
+      </producto>
+      <producto id="005">
+        <nombre>Detergente ropa</nombre>
+        <descripcion>Pack 32 capsulas</descripcion>
+        <marca>Ariel</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>13.60</precioUnidad>
+      </producto>
+    </productos>
+    
+  </Carrefour>
+
+
+  <Alcampo>
+
+    <direccion>Torrelodones</direccion>
+    <fechaCompra>03/06/2023</fechaCompra>
+    <costeTotal>17.91</costeTotal>
+    <metodoPago>tarjeta</metodoPago>
+
+    <productos>
+      <producto id="001">
+        <nombre>Yogures</nombre>
+        <descripcion>Yogures con trozos de fruta pack de 8</descripcion>
+        <marca>Auchan</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>2.20</precioUnidad>
+      </producto>
+      <producto id="002">
+        <nombre>Pescado</nombre>
+        <descripcion>Corazones de merluza congelados</descripcion>
+        <marca>Pescanova</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>5.49</precioUnidad>
+      </producto>
+      <producto  id="003">
+        <nombre>Café</nombre>
+        <descripcion>Cápsulas nespresso</descripcion>
+        <marca>Starbucks</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>4.29</precioUnidad>
+      </producto>
+      <producto id="004">
+        <nombre>Ambientador baño</nombre>
+        <descripcion>Pack 3 ambientadores olor a pino</descripcion>
+        <marca>Auchan</marca>
+        <cantidad>2</cantidad>
+        <precioUnidad>1.99</precioUnidad>
+      </producto>
+      <producto id="005">
+        <nombre>Mayonesa</nombre>
+        <descripcion>Bote de mayonesa ligera</descripcion>
+        <marca>Auchan</marca>
+        <cantidad>1</cantidad>
+        <precioUnidad>1.95</precioUnidad>
+      </producto>
+    </productos>
+
+  </Alcampo>
+
+</supermercados>
