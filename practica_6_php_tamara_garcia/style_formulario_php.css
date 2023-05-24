@@ -1,0 +1,50 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    }
+
+   h1 { text-align: left; margin-bottom: 20px; }
+
+   form { 
+       width: 30%;
+       margin: 10px auto;
+       font-family: sans-serif ;
+       border: 2px solid black;
+       padding: 10px;
+   }
+
+   div.grupo{
+       width: 200px;
+       display: inline-block;
+       vertical-align: top;
+       
+   }
+
+   div.datos {
+       width: 250px;
+       display: inline-block;
+       
+   }
+
+   label {
+       font-size: 10px;
+
+   }
+
+   input, select {
+       border-style: inset ;
+       border-color: lightgrey;
+   }
+
+   span.asterisco { color:red; }
+   
+   .medio { width: 200px; }
+   .largo { width: 250px; }
+
+   .boton { 
+       width: 100px;
+       height: 30px; 
+       font-weight: bold;  
+       border-style: none;
+       border-radius: 5px;
+   }
