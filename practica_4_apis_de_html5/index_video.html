@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica API's de HTML5</title>
+    <link rel="stylesheet" type="text/css" href="style_video.css">
+    <script src="script_video.js"></script>
+</head>
+
+<body>
+    <h2>Sube aquí tu vídeo</h2>
+    <div id="input" class="inputFile">
+    <input type="file" id="miarchivo" name="files[]" onchange="reproducirVideo(event)" /><br>
+    </div>
+    <div id="zonaVideo"></div>
+    <div id="botonera" class="invisible">
+        <button onclick="document.getElementById('miVideo').play();">Reproducir</button>
+        <button onclick="document.getElementById('miVideo').pause();">Pausa</button>
+        <button onclick="document.getElementById('miVideo').volume += 0.2;">Subir Volumen</button>
+        <button onclick="document.getElementById('miVideo').volume -= 0.2;">Bajar Volumen</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+body {
+    width: 60%;
+    text-align: center;
+    background-color: darkslategray;
+
+}
+
+h2 {
+    color: white;
+    margin: 20px;
+}
+
+button {
+    height: 40px;
+    font-size: 20px;
+    color:crimson;
+}
+
+.invisible {visibility: hidden;}
+.visible {visibility: visible;}
