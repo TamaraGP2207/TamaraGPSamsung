@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laboratorio Final. Formulario de alta</title>
+    <link rel="stylesheet" type="text/css" href="style_form_alta.css">
+	<script src="form_alta.js"></script>
+</head>
+<body>
+<form method="post" action="form_alta.php" target="query_php">
+	<h1>Formulario de alta</h1>
+	<div>
+		<input class="azul1 corto" type="text" id="inom" name="fnom" placeholder=" ">
+		<label for="inom">Nombre</label>
+	</div>
+	
+	<div>
+		<input class="azul1 corto" type="text" id="iprim_ape" name="fprim_ape" placeholder=" ">
+		<label for="iprim_ape">Primer Apellido</label>
+	</div>
+	<br>
+	<div>
+		<input class="azul2 corto" type="text" id="iseg_ape" name="fseg_ape" placeholder=" ">
+		<label for="iseg_ape">Segundo Apellido</label>
+	</div>
+
+	<div>
+		<input class="azul2 corto" type="email" id="iema" name="fema" placeholder=" ">
+		<label for="iema">Email</label>
+	</div>
+	<br>
+	<div>
+		<input class="azul2 corto" type="text" id="ilog" name="flog" placeholder=" ">
+		<label for="ilog">Nombre de usuario</label>
+	</div>
+
+	<div>
+		<input class="azul2 corto" type="password" id="ipas" name="fpas" minlength="4" maxlength="8" placeholder="                        Min-4 y Max-8 ">
+		<label for="ipas">Contraseña</label>
+	</div>
+	<br><br>
+	<div>
+	    <input type="submit" id="ibtn_enviar" class="visible" value="Enviar" name="alta" onclick="enviar_formulario()">
+		<a id="ibtn_consulta" class="invisible" name="btn_consulta" href="form_consulta.php" > Consulta</a>
+    </div>
+    <br>
+	<article id="mensaje" class="invisible"></article>	
+</form>
+    <iframe name="query_php"></iframe>
+</body>
+</html>
